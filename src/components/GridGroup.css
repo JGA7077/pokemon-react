@@ -1,0 +1,85 @@
+@media screen and ( min-width: 320px ) {
+
+    .grid-group {
+        position: relative;
+    }
+
+    .card-pokemon {
+        max-width: 95%;
+    }
+
+    .grid-arrow-left {
+        position: absolute;
+        transform: translateX(8%);
+    }
+
+    .grid-arrow-right {
+        position: absolute;
+        transform: translateX(-8%);
+    }
+
+    .grid-item h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--silverTitles);
+    }
+
+    .aside-box {
+        background-color: var(--yellow);
+        /* height: 560px; */
+    }
+
+    .aside-box h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--orange);
+    }
+
+    .aside-box p {
+        font-weight: 400;
+        line-height: 18.7px;
+    }
+
+}
+
+@media screen and ( min-width: 768px ) {
+
+    aside {
+        position: relative;
+    }
+
+}
+
+@media screen and ( min-width: 1024px ) {
+    .pokeball {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 85%;
+        right: 55%;
+    }
+
+    .pikachu {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 65%;
+        left: 58%;
+    }
+}
+
+@media screen and ( min-width: 1200px ) {
+    .pokeball {
+        width: auto;
+        position: absolute;
+        top: 81%;
+        right: 55%;
+    }
+
+    .pikachu {
+        width: auto;
+        position: absolute;
+        top: 56.4%;
+        left: 58%;
+    }
+}

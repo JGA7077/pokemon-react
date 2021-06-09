@@ -1,0 +1,30 @@
+@media screen and ( min-width: 320px ) {
+
+    .card-group h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--silverTitles);
+    }
+
+    .card-title {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--orange);
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .card-pokemon {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and ( min-width: 425px ) {
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,139 @@
+@media screen and ( min-width: 320px ) {
+
+    .slider1 {
+        background-color: var(--yellow);
+        color: #fff;
+        position: relative;
+    }
+    
+    .slider2 {
+        background-color: var(--blue);
+        color: #fff;
+        position: relative;
+    }
+    
+    .slider-text {
+        margin: 140px 30px;
+    }
+
+    .slider-title1 {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 7px;
+    }
+
+    .slider-title2 {
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 26px;
+    }
+
+    .slider1 p, .slider2 p {
+        font-weight: 400;
+        font-size: 0.87rem;
+        width: 182px;
+        margin-bottom: 45px;
+    }
+
+    /* Removendo as Arrows do Swiper */
+
+    .swiper-button-prev::after, .swiper-container-rtl, .swiper-button-next::after {
+        display: none;
+    }
+    
+    .arrow-left {
+        position: absolute;
+        top: 48vh;
+        transform: translateX(33vw);
+    }
+    
+    .arrow-right {
+        position: absolute;
+        top: 48vh;
+        transform: translateX(-33vw);
+    }
+
+    .button-banner {
+        cursor: pointer;
+        font: 700 1rem "PT Sans", sans-serif;
+        color: #fff;
+        background-color: var(--orange);
+        border: none;
+        border-radius: 53px;
+        padding: 14px 20px;
+        margin-right: 28px;
+    }
+    
+    .slider-image {
+        width: 320px;
+        position: absolute;
+        top: 30%;
+        left: 52%;
+    }
+
+}
+
+@media screen and ( min-width: 375px ) {
+
+    .button-banner {
+        padding: 14px 31px;
+    }
+
+}
+
+@media screen and ( min-width: 400px ) {
+
+    .button-banner {
+        padding: 14px 41px;
+    }
+
+}
+
+@media screen and ( min-width: 768px ) {
+
+    .slider-image {
+        top: 14%;
+        left: 50%;
+    }
+
+    .slider1 p, .slider2 p {
+        width: 271px;
+        margin-bottom: 50px;
+    }
+
+    .arrow-left {
+        top: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .arrow-right {
+        top: 50%;
+        transform: translateX(50%);
+    }
+
+}
+
+@media screen and ( min-width: 769px ) {
+
+    .slider-image {
+        width: 479px;
+    }
+
+    .slider-text {
+        margin: 100px;
+    }
+
+    .slider-title1 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 7px;
+    }
+
+    .slider-title2 {
+        font-weight: 900;
+        font-size: 3rem;
+        margin-bottom: 26px;
+    }
+
+}
+
