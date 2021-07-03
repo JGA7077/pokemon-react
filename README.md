@@ -4,7 +4,7 @@
 
 Primeiramente um pequeno _disclaimer_:
 
-> O layout implementado __não pertence a mim__, foi criado por terceiros e está sendo usado aqui apenas para fins didáticos.
+> O layout implementado __não pertence a mim__, foi criado pela [Yooh](https://yooh.com.br/) e está sendo usado aqui apenas para fins didáticos.
 
 ## Implementação
 
